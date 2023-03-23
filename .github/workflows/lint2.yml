@@ -1,0 +1,11 @@
+name: push-lint
+on:
+  push:
+    branches:
+      - master
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: echo "Hello World"
