@@ -1,4 +1,4 @@
-name: hello word
+name: push-lint
 on:
   push:
     branches:
