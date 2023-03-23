@@ -1,8 +1,8 @@
-name: Lint
+name: pull-Lint
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   lint:
